@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forrest AI Companion - Kids with Disabilities</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* CSS for Forrest AI Companion Website */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #0a0a23;
+            color: #fff;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #111;
+            color: #fff;
+            font-size: 1.5em;
+        }
+
+        #hero {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 20px;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero-logo {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 1.5em;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #00d4ff;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #00a3cc;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 50px;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        #about, #features, #token-sale, #contact {
+            padding: 100px 20px;
+            text-align: center;
+            background: #0f0f3d;
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #about h2, #features h2, #token-sale h2, #contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #about p, #features p, #token-sale p, #contact p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+
+        .features-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .feature-box {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 20px;
+            flex-basis: 300px;
+            transition: transform 0.3s;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #111;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2.2em;
+            }
+
+            .hero-content p {
+                font-size: 1.2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 1.8em;
+            }
+
+            .hero-content p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        Forrest AI Companion - Empowering Kids with Disabilities
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <img src="img/logo_5.webp" alt="Forrest AI Logo" class="hero-logo">
+        <div class="hero-content">
+            <h1>Forrest AI Companion for Kids with Disabilities</h1>
+            <p>Supporting the development of children with disabilities by providing an AI companion that adapts to their unique needs and abilities.</p>
+            <a href="#features" class="cta-button">Learn More</a>
+        </div>
+        <div class="hero-image">
+            <img src="img/aikids.webp" alt="AI Companion with Kids">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Forrest AI Companion</h2>
+        <p>Forrest AI Companion is designed to support kids with disabilities by offering personalized interactions, adaptive learning, and emotional support. Our mission is to empower children through technology that understands and grows with them.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="features-container">
+            <div class="feature-box">
+                <h3>Adaptive Learning</h3>
+                <p>Our AI companion adapts to each child's learning pace and needs, making education more engaging and effective.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Emotional Support</h3>
+                <p>Forrest AI offers emotional support, helping children communicate their feelings and promoting mental well-being.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Interactive Play</h3>
+                <p>Interactive games and activities encourage children to explore, learn, and have fun while building essential skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Token Sale Section -->
+    <section id="token-sale">
+        <h2>Support Our Mission - Token Sale</h2>
+        <p>We are raising funds to further develop Forrest AI Companion. By purchasing tokens, you contribute to creating a brighter future for children with disabilities.</p>
+        <button class="cta-button">Buy Tokens</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get Involved</h2>
+        <p>If you're interested in our mission and want to help, contact us to see how you can contribute to the Forrest AI Companion project.</p>
+        <button class="cta-button">Contact Us</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Forrest AI Companion. All rights reserved.
+    </footer>
+
+    <script>
+        // JavaScript
+        document.addEventListener('DOMContentLoaded', () => {
+            const tokenButton = document.querySelector('#token-sale .cta-button');
+            tokenButton.addEventListener('click', () => {
+                alert('Thank you for supporting Forrest AI Companion! Token purchase is coming soon.');
+            });
+
+            const contactButton = document.querySelector('#contact .cta-button');
+            contactButton.addEventListener('click', () => {
+                alert('Thank you for your interest in Forrest AI Companion! Please reach out to us for more details.');
+            });
+        });
+    </script>
+</body>
+</html>
